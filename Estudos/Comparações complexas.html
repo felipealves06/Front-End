@@ -1,0 +1,20 @@
+<html>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script>
+        // Lógica de programação
+        // Operadores Booleanos OU ||, E &&, NÃO !
+        // Comparadores: Igual ==, Diferente !=, Menor <, Menor Igual <=, Maior >, Maior Igual >=
+        
+        var idioma = prompt ('Por favor, digite o código do IDIOMA')
+        var variacao = prompt ('Por favor, digite a VARIACAO')
+        if ((idioma == 'pt') && (variacao = 'br' || variacao == 'pt')){
+            alert('Olá')
+        } else if (idioma == 'en' && variacao == 'us'){
+            alert('Hi')
+        } else if (idioma == 'en' && variacao == 'gb'){
+            alert('Hello')
+        } else {
+            alert('idioma e/ou variação não reconhecido(s).')
+        }
+    </script>
+</html>
