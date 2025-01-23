@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Div hover</title>
+    <style>
+        body{
+            background-color: azure;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color:cornflowerblue;
+        }
+        div:hover{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Div hover</h1>
+    <hr>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Test Div hover
+        <p>Aquilo que se faz por amor está sempre além do bem e do mal. <br>Friedrich Nietzsche.</p>
+    </div>
+
+    <a href="pseudoclasses.html" rel="prev">Voltar</a>
+</body>
+</html>
